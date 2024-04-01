@@ -16,7 +16,7 @@ License: For each use you must have a valid license purchased only from above li
 	<!--begin::Head-->
 	<head>
 <base href="../../" />
-		<title>Empower Chess- The World's #1 Selling Bootstrap Admin Template by KeenThemes</title>
+		<title>Empower Chess</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
 		<meta name="keywords" content="metronic, bootstrap, bootstrap 5, angular, VueJs, React, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel starter kits, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
@@ -4576,14 +4576,14 @@ License: For each use you must have a valid license purchased only from above li
 												</li>
 												<!--end::Item-->
 												<!--begin::Item-->
-												<li class="breadcrumb-item text-gray-600 fw-bold lh-1">Customers</li>
+												<li class="breadcrumb-item text-gray-600 fw-bold lh-1">Users</li>
 												<!--end::Item-->
 											</ul>
 											<!--end::Breadcrumb-->
 											<!--begin::Page title-->
 											<div class="page-title d-flex align-items-center me-3">
 												<!--begin::Title-->
-												<h1 class="page-heading d-flex text-gray-900 fw-bolder fs-1 flex-column justify-content-center my-0">Customer List</h1>
+												<h1 class="page-heading d-flex text-gray-900 fw-bolder fs-1 flex-column justify-content-center my-0">User List</h1>
 												<!--end::Title-->
 											</div>
 											<!--end::Page title-->
@@ -4641,7 +4641,7 @@ License: For each use you must have a valid license purchased only from above li
 																<!--begin::Options-->
 																<label class="form-check form-check-sm form-check-custom form-check-solid">
 																	<input class="form-check-input" type="checkbox" value="2" checked="checked" />
-																	<span class="form-check-label">Customer</span>
+																	<span class="form-check-label">User</span>
 																</label>
 																<!--end::Options-->
 															</div>
@@ -4704,7 +4704,7 @@ License: For each use you must have a valid license purchased only from above li
 														<span class="path1"></span>
 														<span class="path2"></span>
 													</i>
-													<input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-12" placeholder="Search Customers" />
+													<input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-12" placeholder="Search Users" />
 												</div>
 												<!--end::Search-->
 											</div>
@@ -4802,7 +4802,7 @@ License: For each use you must have a valid license purchased only from above li
 													</i>Export</button>
 													<!--end::Export-->
 													<!--begin::Add customer-->
-													<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">Add Customer</button>
+													<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">Add User</button>
 													<!--end::Add customer-->
 												</div>
 												<!--end::Toolbar-->
@@ -4828,12 +4828,11 @@ License: For each use you must have a valid license purchased only from above li
 																<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_customers_table .form-check-input" value="1" />
 															</div>
 														</th>
-														<th class="min-w-125px">Customer Name</th>
+														<th class="min-w-125px">User id</th>
+														<th class="min-w-125px">User Name</th>
 														<th class="min-w-125px">Email</th>
-														<th class="min-w-125px">Company</th>
-														<th class="min-w-125px">Payment Method</th>
-														<th class="min-w-125px">Created Date</th>
-														<th class="text-end min-w-70px">Actions</th>
+														<th class="min-w-125px">Roles</th>
+														
 													</tr>
 												</thead>
 												<tbody class="fw-semibold text-gray-600">
@@ -4849,10 +4848,10 @@ License: For each use you must have a valid license purchased only from above li
 														<td>
 															<a href="#" class="text-gray-600 text-hover-primary mb-1">smith@kpmg.com</a>
 														</td>
-														<td>-</td>
+														<td>1</td>
 														<td data-filter="mastercard">
-														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 8299</td>
-														<td>14 Dec 2020, 8:43 pm</td>
+														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />Admin</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -4887,7 +4886,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Google</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 1876</td>
-														<td>01 Dec 2020, 10:12 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -4922,7 +4921,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Bistro Union</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 9127</td>
-														<td>12 Nov 2020, 2:01 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -4957,7 +4956,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Astro Limited</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 8133</td>
-														<td>21 Oct 2020, 5:54 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -4992,7 +4991,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 9234</td>
-														<td>19 Oct 2020, 7:32 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5027,7 +5026,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Keenthemes</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 7768</td>
-														<td>23 Sep 2020, 12:37 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5062,7 +5061,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paypal</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 6503</td>
-														<td>11 Sep 2020, 3:15 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5097,7 +5096,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 6468</td>
-														<td>03 Sep 2020, 1:08 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5132,7 +5131,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paramount</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 9082</td>
-														<td>01 Sep 2020, 4:58 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5167,7 +5166,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Trinity Studio</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 3245</td>
-														<td>18 Aug 2020, 3:34 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5202,7 +5201,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>B&T Legal Services</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 6714</td>
-														<td>14 Aug 2020, 1:21 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5237,7 +5236,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paysafe Security</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 9849</td>
-														<td>11 Aug 2020, 5:13 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5272,7 +5271,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 8299</td>
-														<td>14 Dec 2020, 8:43 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5307,7 +5306,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Google</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 1876</td>
-														<td>01 Dec 2020, 10:12 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5342,7 +5341,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Bistro Union</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 9127</td>
-														<td>12 Nov 2020, 2:01 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5377,7 +5376,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Astro Limited</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 8133</td>
-														<td>21 Oct 2020, 5:54 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5412,7 +5411,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 9234</td>
-														<td>19 Oct 2020, 7:32 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5447,7 +5446,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Keenthemes</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 7768</td>
-														<td>23 Sep 2020, 12:37 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5482,7 +5481,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paypal</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 6503</td>
-														<td>11 Sep 2020, 3:15 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5517,7 +5516,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 6468</td>
-														<td>03 Sep 2020, 1:08 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5552,7 +5551,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paramount</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 9082</td>
-														<td>01 Sep 2020, 4:58 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5587,7 +5586,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Trinity Studio</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 3245</td>
-														<td>18 Aug 2020, 3:34 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5622,7 +5621,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>B&T Legal Services</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 6714</td>
-														<td>14 Aug 2020, 1:21 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5657,7 +5656,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paysafe Security</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 9849</td>
-														<td>11 Aug 2020, 5:13 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5692,7 +5691,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 8299</td>
-														<td>14 Dec 2020, 8:43 pm</td>
+													
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5727,7 +5726,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Google</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 1876</td>
-														<td>01 Dec 2020, 10:12 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5762,7 +5761,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Bistro Union</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 9127</td>
-														<td>12 Nov 2020, 2:01 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5797,7 +5796,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Astro Limited</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 8133</td>
-														<td>21 Oct 2020, 5:54 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5832,7 +5831,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 9234</td>
-														<td>19 Oct 2020, 7:32 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5867,7 +5866,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Keenthemes</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 7768</td>
-														<td>23 Sep 2020, 12:37 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5902,7 +5901,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paypal</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 6503</td>
-														<td>11 Sep 2020, 3:15 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5937,7 +5936,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 6468</td>
-														<td>03 Sep 2020, 1:08 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -5972,7 +5971,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paramount</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 9082</td>
-														<td>01 Sep 2020, 4:58 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6007,7 +6006,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Trinity Studio</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 3245</td>
-														<td>18 Aug 2020, 3:34 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6042,7 +6041,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>B&T Legal Services</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 6714</td>
-														<td>14 Aug 2020, 1:21 pm</td>
+													
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6077,7 +6076,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Paysafe Security</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 9849</td>
-														<td>11 Aug 2020, 5:13 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6112,7 +6111,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>-</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 8299</td>
-														<td>14 Dec 2020, 8:43 pm</td>
+													
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6147,7 +6146,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Google</td>
 														<td data-filter="visa">
 														<img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="" />**** 1876</td>
-														<td>01 Dec 2020, 10:12 am</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6182,7 +6181,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Bistro Union</td>
 														<td data-filter="mastercard">
 														<img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="" />**** 9127</td>
-														<td>12 Nov 2020, 2:01 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6217,7 +6216,7 @@ License: For each use you must have a valid license purchased only from above li
 														<td>Astro Limited</td>
 														<td data-filter="american_express">
 														<img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="" />**** 8133</td>
-														<td>21 Oct 2020, 5:54 pm</td>
+														
 														<td class="text-end">
 															<a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions 
 															<i class="ki-duotone ki-down fs-5 ms-1"></i></a>
@@ -6256,7 +6255,7 @@ License: For each use you must have a valid license purchased only from above li
 													<!--begin::Modal header-->
 													<div class="modal-header" id="kt_modal_add_customer_header">
 														<!--begin::Modal title-->
-														<h2 class="fw-bold">Add a Customer</h2>
+														<h2 class="fw-bold">Add a User</h2>
 														<!--end::Modal title-->
 														<!--begin::Close-->
 														<div id="kt_modal_add_customer_close" class="btn btn-icon btn-sm btn-active-icon-primary">
